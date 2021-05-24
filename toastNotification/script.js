@@ -15,5 +15,5 @@ function createNotification() {
 
   setTimeout(() => {
     notification.remove()
-  }, 3000)
+  }, 2000)
 }
