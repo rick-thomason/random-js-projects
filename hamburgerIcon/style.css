@@ -21,6 +21,14 @@ button {
   top: 20px;
   right: 20px;
   padding: 1rem;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 5px;
+}
+
+button.active {
+  transform: translateX(-100px);
+  background-color: rebeccapurple;
 }
 
 nav {
@@ -31,6 +39,7 @@ nav {
   height: 100vh;
   padding: 2rem;
   transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
 }
 
 nav.active {
